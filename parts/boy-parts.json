@@ -1,0 +1,267 @@
+[{
+    "name": "Background",
+    "parts": [{
+        "name": "Background0",
+        "images": [{
+            "path": "background.png",
+            "order": 100
+        }]
+    }]
+}, {
+    "name": "Face",
+    "parts": [{
+        "name": "Face0",
+        "images": [{
+            "path": "boy/face.png",
+            "order": 200
+        }]
+    }]
+}, {
+    "name": "Lips",
+    "parts": [{
+        "name": "Lips0",
+        "images": [{
+            "path": "boy/lips/0.png",
+            "order": 300
+        }]
+    }, {
+        "name": "Lips0",
+        "images": [{
+            "path": "boy/lips/1.png",
+            "order": 300
+        }]
+    }, {
+        "name": "Lips1",
+        "images": [{
+            "path": "boy/lips/2.png",
+            "order": 300
+        }]
+    }, {
+        "name": "Lips2",
+        "images": [{
+            "path": "boy/lips/3.png",
+            "order": 300
+        }]
+    }]
+}, {
+    "name": "Eyes",
+    "parts": [{
+        "name": "Eyes0",
+        "images": [{
+            "path": "boy/eyes/0.png",
+            "order": 400
+        }]
+    }]
+}, {
+    "name": "Nose",
+    "parts": [{
+        "name": "Nose0",
+        "images": [{
+            "path": "boy/noses/0.png",
+            "order": 500
+        }]
+    }, {
+        "name": "Nose1",
+        "images": [{
+            "path": "boy/noses/1.png",
+            "order": 500
+        }]
+    }, {
+        "name": "Nose2",
+        "percent": 10,
+        "images": [{
+            "path": "boy/noses/2.png",
+            "order": 500
+        }]
+    }]
+}, {
+    "name": "Glasses",
+    "parts": [{
+        "name": "None",
+        "percent": 60
+    }, {
+        "name": "Glasses0",
+        "images": [{
+            "path": "boy/glasses/0.png",
+            "order": 550
+        }]
+    }, {
+        "name": "Glasses1",
+        "images": [{
+            "path": "boy/glasses/1.png",
+            "order": 550
+        }]
+    }, {
+        "name": "Glasses2",
+        "images": [{
+            "path": "boy/glasses/2.png",
+            "order": 550
+        }]
+    }, {
+        "name": "Glasses3",
+        "images": [{
+            "path": "boy/glasses/3.png",
+            "order": 550
+        }]
+    }, {
+        "name": "Glasses4",
+        "images": [{
+            "path": "boy/glasses/4.png",
+            "order": 550
+        }]
+    }]
+}, {
+    "name": "Dress",
+    "parts": [{
+        "name": "None",
+        "percent": 60
+    }, {
+        "name": "Dress0",
+        "images": [{
+            "path": "boy/dress/0.png",
+            "order": 560
+        }]
+    }, {
+        "name": "Dress1",
+        "images": [{
+            "path": "boy/dress/1.png",
+            "order": 560
+        }]
+    }]
+}, {
+    "name": "Hair",
+    "parts": [{
+        "name": "Hair0",
+        "images": [{
+            "path": "boy/hairs/0.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair1",
+        "percent": 23,
+        "images": [{
+            "path": "boy/hairs/1.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair2",
+        "percent": 23,
+        "images": [{
+            "path": "boy/hairs/2.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair3",
+        "percent": 23,
+        "images": [{
+            "path": "boy/hairs/3.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair4",
+        "images": [{
+            "path": "boy/hairs/4.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair5",
+        "images": [{
+            "path": "boy/hairs/5.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair6",
+        "images": [{
+            "path": "boy/hairs/6.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair7",
+        "images": [{
+            "path": "boy/hairs/7.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair8",
+        "images": [{
+            "path": "boy/hairs/8.png",
+            "order": 600
+        }]
+    }]
+}, {
+    "name": "Hair Accessory",
+    "parts": [{
+        "name": "None",
+        "percent": 60
+    }, {
+        "name": "HairAccessory0",
+        "condition": {
+            "trait": "Hair",
+            "values": ["Hair0", "Hair1", "Hair2", "Hair3", "Hair4", "Hair5", "Hair6"]
+        },
+        "images": [{
+            "path": "boy/hair-accessories/0.png",
+            "order": 800
+        }]
+    }, {
+        "name": "HairAccessory1",
+        "condition": {
+            "trait": "Hair",
+            "values": ["Hair0", "Hair1", "Hair2", "Hair3", "Hair4", "Hair5", "Hair6"]
+        },
+        "images": [{
+            "path": "boy/hair-accessories/1.png",
+            "order": 800
+        }]
+    }, {
+        "name": "HairAccessory2",
+        "condition": {
+            "trait": "Hair",
+            "values": ["Hair0", "Hair1", "Hair2", "Hair3", "Hair4", "Hair5", "Hair6"]
+        },
+        "images": [{
+            "path": "boy/hair-accessories/2.png",
+            "order": 800
+        }]
+    }, {
+        "name": "HairAccessory3",
+        "images": [{
+            "path": "boy/hair-accessories/3.png",
+            "order": 800
+        }]
+    }]
+}, {
+    "name": "Accessory",
+    "parts": [{
+        "name": "None",
+        "percent": 60
+    }, {
+        "name": "Accessory0",
+        "images": [{
+            "path": "boy/accessories/0.png",
+            "order": 700
+        }]
+    }, {
+        "name": "Accessory1",
+        "images": [{
+            "path": "boy/accessories/1.png",
+            "order": 700
+        }]
+    }, {
+        "name": "Accessory2",
+        "condition": {
+            "trait": "Hair Accessory",
+            "values": ["None", "HairAccessory0", "HairAccessory2", "HairAccessory3"]
+        },
+        "images": [{
+            "path": "boy/accessories/2.png",
+            "order": 700
+        }]
+    }, {
+        "name": "Accessory3",
+        "images": [{
+            "path": "boy/accessories/3.png",
+            "order": 900
+        }]
+    }]
+}]

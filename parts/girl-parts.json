@@ -1,0 +1,287 @@
+[{
+    "name": "Background",
+    "parts": [{
+        "name": "Background0",
+        "images": [{
+            "path": "background.png",
+            "order": 100
+        }]
+    }]
+}, {
+    "name": "Face",
+    "parts": [{
+        "name": "Face0",
+        "images": [{
+            "path": "girl/face.png",
+            "order": 200
+        }]
+    }]
+}, {
+    "name": "Lips",
+    "parts": [{
+        "name": "Lips0",
+        "images": [{
+            "path": "girl/lips/0.png",
+            "order": 300
+        }]
+    }, {
+        "name": "Lips1",
+        "images": [{
+            "path": "girl/lips/1.png",
+            "order": 300
+        }]
+    }, {
+        "name": "Lips2",
+        "images": [{
+            "path": "girl/lips/2.png",
+            "order": 300
+        }]
+    }, {
+        "name": "Lips3",
+        "images": [{
+            "path": "girl/lips/3.png",
+            "order": 300
+        }]
+    }]
+}, {
+    "name": "Eyes",
+    "parts": [{
+        "name": "Eyes0",
+        "images": [{
+            "path": "girl/eyes/0.png",
+            "order": 400
+        }]
+    }, {
+        "name": "Eyes1",
+        "images": [{
+            "path": "girl/eyes/1.png",
+            "order": 400
+        }]
+    }, {
+        "name": "Eyes2",
+        "images": [{
+            "path": "girl/eyes/2.png",
+            "order": 400
+        }]
+    }, {
+        "name": "Eyes3",
+        "images": [{
+            "path": "girl/eyes/3.png",
+            "order": 400
+        }]
+    }]
+}, {
+    "name": "Nose",
+    "parts": [{
+        "name": "Nose0",
+        "images": [{
+            "path": "girl/noses/0.png",
+            "order": 500
+        }]
+    }, {
+        "name": "Nose1",
+        "percent": 10,
+        "images": [{
+            "path": "girl/noses/1.png",
+            "order": 500
+        }]
+    }, {
+        "name": "Nose2",
+        "images": [{
+            "path": "girl/noses/2.png",
+            "order": 500
+        }]
+    }]
+}, {
+    "name": "Glasses",
+    "parts": [{
+        "name": "None",
+        "percent": 60
+    }, {
+        "name": "Glasses0",
+        "images": [{
+            "path": "girl/glasses/0.png",
+            "order": 550
+        }]
+    }, {
+        "name": "Glasses1",
+        "images": [{
+            "path": "girl/glasses/1.png",
+            "order": 550
+        }]
+    }, {
+        "name": "Glasses2",
+        "images": [{
+            "path": "girl/glasses/2.png",
+            "order": 550
+        }]
+    }, {
+        "name": "Glasses3",
+        "images": [{
+            "path": "girl/glasses/3.png",
+            "order": 550
+        }]
+    }, {
+        "name": "Glasses4",
+        "condition": {
+            "trait": "Hair",
+            "values": ["Hair1", "Hair2", "Hair3", "Hair4", "Hair5", "Hair6", "Hair7", "Hair8", "Hair9"]
+        },
+        "images": [{
+            "path": "girl/glasses/4.png",
+            "order": 550
+        }]
+    }]
+}, {
+    "name": "Dress",
+    "parts": [{
+        "name": "None",
+        "percent": 60
+    }, {
+        "name": "Dress0",
+        "images": [{
+            "path": "girl/dress/0.png",
+            "order": 560
+        }]
+    }, {
+        "name": "Dress1",
+        "images": [{
+            "path": "girl/dress/1.png",
+            "order": 560
+        }]
+    }]
+}, {
+    "name": "Hair",
+    "parts": [{
+        "name": "Hair0",
+        "percent": 10,
+        "images": [{
+            "path": "girl/hairs/0.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair1",
+        "percent": 10,
+        "images": [{
+            "path": "girl/hairs/1.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair2",
+        "percent": 10,
+        "images": [{
+            "path": "girl/hairs/2.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair3",
+        "percent": 10,
+        "images": [{
+            "path": "girl/hairs/3.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair4",
+        "percent": 10,
+        "images": [{
+            "path": "girl/hairs/4.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair5",
+        "percent": 10,
+        "images": [{
+            "path": "girl/hairs/5.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair6",
+        "percent": 10,
+        "images": [{
+            "path": "girl/hairs/6.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair7",
+        "images": [{
+            "path": "girl/hairs/7.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair8",
+        "images": [{
+            "path": "girl/hairs/8.png",
+            "order": 600
+        }]
+    }, {
+        "name": "Hair9",
+        "images": [{
+            "path": "girl/hairs/9.png",
+            "order": 600
+        }]
+    }]
+}, {
+    "name": "Hair Accessory",
+    "parts": [{
+        "name": "None",
+        "percent": 60
+    }, {
+        "name": "HairAccessory0",
+        "images": [{
+            "path": "girl/hair-accessories/0.png",
+            "order": 800
+        }]
+    }, {
+        "name": "HairAccessory1",
+        "images": [{
+            "path": "girl/hair-accessories/1.png",
+            "order": 800
+        }]
+    }, {
+        "name": "HairAccessory2",
+        "images": [{
+            "path": "girl/hair-accessories/2.png",
+            "order": 800
+        }]
+    }, {
+        "name": "HairAccessory3",
+        "images": [{
+            "path": "girl/hair-accessories/3.png",
+            "order": 800
+        }]
+    }]
+}, {
+    "name": "Accessory",
+    "parts": [{
+        "name": "None",
+        "percent": 60
+    }, {
+        "name": "Accessory0",
+        "images": [{
+            "path": "girl/accessories/0.png",
+            "order": 700
+        }]
+    }, {
+        "name": "Accessory1",
+        "images": [{
+            "path": "girl/accessories/1.png",
+            "order": 700
+        }]
+    }, {
+        "name": "Accessory2",
+        "condition": {
+            "trait": "Hair Accessory",
+            "values": ["None", "HairAccessory0", "HairAccessory2", "HairAccessory3"]
+        },
+        "images": [{
+            "path": "girl/accessories/2.png",
+            "order": 700
+        }]
+    }, {
+        "name": "Accessory3",
+        "images": [{
+            "path": "girl/accessories/3.png",
+            "order": 900
+        }]
+    }]
+}]
